@@ -1,0 +1,14 @@
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\bin\Debug\net8.0\SeminarC#_05HomeWork.exe
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\bin\Debug\net8.0\SeminarC#_05HomeWork.deps.json
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\bin\Debug\net8.0\SeminarC#_05HomeWork.runtimeconfig.json
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\bin\Debug\net8.0\SeminarC#_05HomeWork.dll
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\bin\Debug\net8.0\SeminarC#_05HomeWork.pdb
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\SeminarC#_05HomeWork.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\SeminarC#_05HomeWork.AssemblyInfoInputs.cache
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\SeminarC#_05HomeWork.AssemblyInfo.cs
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\SeminarC#_05HomeWork.csproj.CoreCompileInputs.cache
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\SeminarC#_05HomeWork.dll
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\refint\SeminarC#_05HomeWork.dll
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\SeminarC#_05HomeWork.pdb
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\SeminarC#_05HomeWork.genruntimeconfig.cache
+C:\Users\elovg\Desktop\myVSC\SeminarC#_05HomeWork\obj\Debug\net8.0\ref\SeminarC#_05HomeWork.dll
