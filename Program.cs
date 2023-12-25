@@ -146,7 +146,87 @@
 // строку и столбец, на пересечении которых расположен
 // наименьший элемент массива. Под удалением
 // понимается создание нового двумерного массива без
-// строки и столбца
+// строки и столбца.
 // 4 3 1 => 2 6
 // 2 6 9    4 6
 // 4 6 2
+
+int[,] matrix = GetMatrix(4, 5, 10, 99);
+Print(matrix);
+Console.WriteLine();
+int row = 0;
+int column = 0;
+int min = FindMinElement(matrix, out row, out column);
+int[,] newMatrix = GetNewMatrix(matrix, row, column);
+Print (newMatrix);
+
+Console.WriteLine(row);
+
+int[,] GetMatrix(int rows, int columns, int minValue, int maxValue)
+{
+    int[,] result = new int[rows, columns];
+    Random rand = new Random();
+    for (int i = 0; i < length; i++)
+    {
+        for (int j = 0; j < columns; j++)
+        {
+            result[i, j] = rand.Next(minValue, maxValue + 1);
+        }
+    }
+    return result;
+}
+
+int FindMinElement(int[,] matrix, out int row, out int column)
+{
+    int min = matrix[0, 0];
+    row = 0;
+    column = 0;
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+            if(min > matrix[i,j])
+            {
+            row = i;
+            column = j;
+            min = matrix[i, j];
+            }
+        }
+    }
+    return min;
+}
+
+int[,] GetNewMatrix(int[,] matrix, int row, int column)
+{
+    int[,] newMatrix = new int [matrix.GetLength(0) - 1, matrix.GetLength(1) - 1];
+    int newIndexRow = 0;
+    int newIndexColumn = 0;
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        if (i != row)
+        newIndexRow = 0;
+        {
+             for (int j = 0; j < matrix.GetLength(1); j++)
+            {
+                if(i != column)
+                {
+                    newMatrix[newIndexRow, newIndexColumn] = matrix[i, j];
+                    newIndexColumn++;
+                }
+            }
+        }
+        newIndexRow++;
+    }
+}
+return newMatrix;
+
+void Print(int[,] matrix)
+{
+    for (int i = 0; i < matrix.GetLength(0); i++)
+    {
+        for (int j = 0; j < matrix.GetLength(1); j++)
+        {
+        Console.WriteLine();
+        }
+    }
+}
